@@ -6,7 +6,7 @@
 #
 ###############
 
-How it Works:  
+How it Works (since I don't know markup, view the top of mrclean.sh to see this section in a cleaner more oriented fashion):  
    To visualize how this script works, you must understand the directory structure involved  
 	   -movies  
 	       -almostready (for releases that do not pass multiple clean tests after script finishes. They are moved here and obviously more problmatic than previously thought. (need human intervention))  
