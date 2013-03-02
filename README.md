@@ -8,13 +8,13 @@
 
 How it Works:  
    To visualize how this script works, you must understand the directory structure involved  
-   -movies  
-       -almostready (for releases that do not pass multiple clean tests after script finishes. They are moved here and obviously more problmatic than previously thought. (need human intervention))  
-       -ready (for releases that have been ripped/encoded and seem ready to go. This is the working dir for this script.)  
-           -Inception.2010  (the movie directory. This is the topdir (or later on cleantopdir) that holds the movie)  
-               -movie.mkv (the movie file)  
-               -movieinfo.nfo (an info file)  
-           -Toy.Story.2.1994  
+	   -movies  
+	       -almostready (for releases that do not pass multiple clean tests after script finishes. They are moved here and obviously more problmatic than previously thought. (need human intervention))  
+	       -ready (for releases that have been ripped/encoded and seem ready to go. This is the working dir for this script.)  
+	           -Inception.2010  (the movie directory. This is the topdir (or later on cleantopdir) that holds the movie)  
+	               -movie.mkv (the movie file)  
+	               -movieinfo.nfo (an info file)  
+	           -Toy.Story.2.1994  
   
    Basically what we are doing is scanning in each movie directory, changing its name to take out bad characters, modifying the contents inside to what we want
    and then moving on to the next movie. We basically want just a single video file and a single nfo if available. We run checks on this to make sure the right number of files
@@ -24,10 +24,10 @@ How it Works:
 
 
 To install,  
-1. Ensure all files are sitting nicely like "/home/username/mrclean"
-2. cp the example.config to /home/username/.mrclean
-3. edit the config to your needs
-4. run like this: ./mrclean.sh /directory/to/clean/meow
+1. Ensure all files are sitting nicely like "/home/username/mrclean"  
+2. cp the example.config to /home/username/.mrclean  
+3. edit the config to your needs  
+4. run like this: ./mrclean.sh /directory/to/clean/meow  
 
 NOTE: This includes the latest version of rarcursive from March of 13. Please update from my rarcursive repo if using later than 3/13.  
 
