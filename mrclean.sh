@@ -1,5 +1,6 @@
 #!/bin/bash
 # Teh directory you give mrclean will be changed into and worked out of for the entirety of the script processing. keep this in mind.
+source /home/"$(id -un)"/.mrclean
 cd "$1"
 
 #   To visualize how this script works, you must understand the directory structure involved
